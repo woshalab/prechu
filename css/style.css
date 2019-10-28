@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'Segoe';
+    src: url(fonts/SegoeWPN.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe';
+}
+
+.max-width {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+}
+
+.wrap {
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 142px;
+    background-repeat: no-repeat;
+}
+
+.logo-txt {
+
+    font-weight: lighter;
+    color: #000000;
+    font-size: 43px;
+    margin: 0 0 0 16px;
+}
+
+.menu-tabs {
+    display: flex;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+    margin-right: 115px;
+    height: 100%;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+}
+
+.tab:not(:first-child) {
+    margin-left: 40px;
+}
+
+.tab:hover {
+    border-bottom: 3px solid #5094f2;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 485px;
+    position: relative;
+}
+
+.banner img {
+    margin-left: 170px;
+}
+
+.description {
+    margin: 150px;
+}
+
+.description h1{
+    color: white;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+
+.description p {
+    max-width: 240px;
+    color: white;
+    font-size: 26px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5094f2;
+    border: none;
+    color: white;
+    padding: 9px;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: lighter;
+    font-style: normal;
+    width: 172px;
+}
+
+.done-icon {
+    padding: 3px;
+    width: 23px;
+    height: 23px;
+}
+
+.done-icon:before {
+    content: url("../assets/icons/done-icon.svg");
+}
+
+.arrows {
+    position: absolute;
+    width: calc(100% - 180px);
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.arrow {
+    background-image: url("../assets/icons/arrow.png");
+    width: 25px;
+    height: 63px;
+}
+
+.right {
+    transform: rotate(180deg);
+}
+
+
+.wrap2 {
+    display: flex;
+    margin: 56px auto;
+    position: relative;
+    width: calc(100% - 280px);
+    justify-content: space-between;
+
+}
+
+.wrap2 h2 {
+    color: #5094f2;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.wrap2 p {
+    margin-top: auto;
+    font-size: 15px;
+    color: #909090;
+    width: 250px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
