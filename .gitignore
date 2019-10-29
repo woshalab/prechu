@@ -3,3 +3,4 @@
 /deploy
 firebase.json
 .firebaserc
+/.firebase

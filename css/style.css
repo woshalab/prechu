@@ -175,3 +175,50 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
+
+.wrap3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 3em;
+}
+
+.colum1 {
+    padding-left: 155px;
+}
+
+.colum1 h1 {
+    font-weight: normal;
+    font-size: 42px;
+    color: #6f7173;
+}
+
+.colum2 {
+    padding-right: 185px;
+}
+
+.colum2 h3 {
+    font-weight: normal;
+    font-size: 26px;
+    color: #909090;
+}
+
+.colum2 p {
+    width: 450px;
+    color: #909090;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.footer-border {
+    border-top: 1px solid lightgray;
+}
+
+footer p {
+    margin-top: 2.3em;
+    font-size: 15px;
+    color: #909090;
+    text-align: center;
+
+}
