@@ -34,15 +34,14 @@ header {
     background-repeat: no-repeat;
 }
 
-.logo-txt {
-
+.logo__text {
     font-weight: lighter;
     color: #000000;
     font-size: 43px;
     margin: 0 0 0 16px;
 }
 
-.menu-tabs {
+.menu__nav {
     display: flex;
     font-weight: normal;
     font-size: 20px;
@@ -51,7 +50,7 @@ header {
     height: 100%;
 }
 
-.tab {
+.nav__tab {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,11 +60,11 @@ header {
     text-decoration: none;
 }
 
-.tab:not(:first-child) {
+.nav__tab:not(:first-child) {
     margin-left: 40px;
 }
 
-.tab:hover {
+.nav__tab:hover {
     border-bottom: 3px solid #5094f2;
 }
 
@@ -83,19 +82,19 @@ header {
     margin-left: 170px;
 }
 
-.description {
+.banner__description {
     margin: 150px;
 }
 
-.description h1{
+.banner__description h1{
     color: white;
     font-size: 42px;
     font-weight: normal;
 }
 
 
-.description p {
-    max-width: 240px;
+.banner__description p {
+    max-width: 260px;
     color: white;
     font-size: 26px;
 }
@@ -106,26 +105,35 @@ header {
     align-items: center;
     background-color: #5094f2;
     border: none;
-    color: white;
-    padding: 9px;
-    font-size: 22px;
+    border-radius: 2px;
     cursor: pointer;
-    font-weight: lighter;
-    font-style: normal;
     width: 172px;
+    margin-left: 15px;
+    padding: 9px;
 }
 
-.done-icon {
+.btn:hover {
+    background-color: #446cbe;
+    border: none;
+
+}
+.btn__text {
+    color: white;
+    font-size: 22px;
+    font-weight: lighter;
+    font-style: normal;
+}
+.btn__icon {
     padding: 3px;
     width: 23px;
     height: 23px;
 }
 
-.done-icon:before {
+.btn__icon:before {
     content: url("../assets/icons/done-icon.svg");
 }
 
-.arrows {
+.banner__arrows {
     position: absolute;
     width: calc(100% - 180px);
     display: flex;
@@ -140,7 +148,7 @@ header {
     height: 63px;
 }
 
-.right {
+.arrow_right {
     transform: rotate(180deg);
 }
 
@@ -170,7 +178,7 @@ header {
     text-align: center;
 }
 
-.feature {
+.advantage {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,34 +192,34 @@ header {
     padding-bottom: 3em;
 }
 
-.colum1 {
+.column1 {
     padding-left: 155px;
 }
 
-.colum1 h1 {
+.column1 h1 {
     font-weight: normal;
     font-size: 42px;
     color: #6f7173;
 }
 
-.colum2 {
+.column2 {
     padding-right: 185px;
 }
 
-.colum2 h3 {
+.column2 h3 {
     font-weight: normal;
     font-size: 26px;
     color: #909090;
 }
 
-.colum2 p {
+.column2 p {
     width: 450px;
     color: #909090;
     font-size: 15px;
     line-height: 36px;
 }
 
-.footer-border {
+.footer__border {
     border-top: 1px solid lightgray;
 }
 
