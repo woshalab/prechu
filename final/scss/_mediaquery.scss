@@ -1,0 +1,371 @@
+@media screen and (max-width: 1280px) {
+  header {
+    .intro {
+      .intro_title {
+        font-size: 50px;
+      }
+
+      .intro_txt {
+        font-size: 15px;
+      }
+
+      .intro_video {
+        height: 18rem;
+        width: 33rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  header {
+    .intro {
+      .intro_item {
+        max-width: 31rem;
+      }
+    }
+  }
+  main {
+    .review {
+      padding: 60px 23px;
+
+      .review_title {
+        margin-bottom: 10px;
+        font-size: 40px;
+      }
+
+      .review_txt {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 1.5rem;
+      }
+
+      .review_photo {
+        margin-right: 10px;
+      }
+
+      .item__arrows::before {
+        transform: translate(165%, -80%);
+      }
+
+      .item__arrows::after {
+        transform: translate(165%, 80%) rotate(179deg);
+      }
+
+      .review_opinion {
+        padding: 8px 10px 8px 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  header {
+    .intro {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 60px 0;
+
+      .intro_txt {
+        margin-bottom: 1.5rem;
+      }
+
+      .intro_video {
+        margin-top: 20px;
+        transform: translateX(3%);
+      }
+    }
+  }
+  main {
+    .section {
+      padding: 60px 0;
+    }
+    .section_header {
+      margin: 0 auto 30px;
+
+      .section_title {
+        margin-bottom: 15px;
+        font-size: 40px;
+      }
+
+      .section_suptitle {
+        font-size: 20px;
+      }
+
+      .section_txt {
+        font-size: 13px;
+      }
+    }
+    .stat {
+      flex-wrap: wrap;
+
+      .stat_item {
+        width: 50%;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 780px) {
+  header {
+    .header_nav {
+      nav {
+        .nav_list {
+          display: none;
+        }
+
+        .nav_menu__hamburger {
+          display: block;
+        }
+      }
+
+      .nav_btn {
+        display: none;
+      }
+    }
+
+    .intro {
+      .intro_title {
+        font-size: 45px;
+        line-height: 2.7rem;
+      }
+
+      .intro_txt {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      .intro_video {
+        height: 17rem;
+        width: 30rem;
+        transform: translateX(-2%);
+      }
+    }
+  }
+  main {
+    .section {
+      padding: 45px 0;
+    }
+    .section_header {
+      .section_title {
+        margin-bottom: 5px;
+        font-size: 38px;
+      }
+
+      .section_suptitle {
+        font-size: 18px;
+      }
+
+      .section_txt {
+        font-size: 13px;
+      }
+    }
+    .about {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 72px;
+
+
+      .about_item {
+        width: 100%;
+        max-width: 345px;
+      }
+
+      .about_icon {
+        margin: 29px auto 9px;
+      }
+
+      .about_title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #061e37;
+        margin-bottom: 15px;
+
+      }
+
+      .about_txt {
+        font-size: 15px;
+        font-weight: normal;
+        color: #78909c;
+        line-height: 15px;
+
+
+      }
+
+    }
+
+    .stat {
+      .stat_item {
+        width: 100%;
+      }
+    }
+
+    .accordion_item {
+      .accordion_img {
+        display: none;
+      }
+    }
+
+    .review {
+      padding: 56px 23px;
+
+      .item__arrows::before {
+        transform: translate(0%, 0%);
+      }
+
+      .item__arrows::after {
+        transform: translate(0%, 10%) rotate(179deg);
+      }
+
+      .review_items {
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .review_item {
+          width: 100%;
+
+          .review_item__content:first-child {
+            margin: 0;
+          }
+
+          .review_btn {
+            margin-bottom: 20px;
+          }
+
+          .review_item__content__hide {
+            display: none;
+          }
+
+          .review_photo {
+            display: none;
+          }
+
+          .review_opinion {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+
+    .section_contacts {
+      .form {
+        .form_block {
+          flex-direction: column;
+          margin-bottom: 0;
+
+          input {
+            width: 100%;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .section_footer {
+      padding: 60px 0;
+      .footer_content, .footer_nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      .logo, .footer_item {
+        margin-bottom: 20px;
+      }
+      .footer_content {
+        .footer_social_item:first-child {
+          padding: 12px 12px 12px 0;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+  header {
+    height: 32rem;
+
+    .intro {
+      justify-content: center;
+      align-items: center;
+
+      .intro_video {
+        display: none;
+      }
+    }
+  }
+  main {
+    .review {
+      .review_title {
+        font-size: 35px;
+      }
+
+      .review_txt {
+        font-size: 14px;
+        line-height: 15px;
+      }
+    }
+    .team {
+      .team_content {
+        flex-direction: column;
+        align-items: center;
+
+        .team_member {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 470px) {
+  main {
+    .review {
+      padding: 23px 23px;
+    }
+  }
+  footer {
+    .section_footer {
+      .footer_nav {
+        flex-direction: column;
+        justify-content: space-around;
+        .nav_list {
+          list-style: none;
+          li {
+            padding-right: 1vw;
+
+            a {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+      .footer_content {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .footer_item_txt {
+          font-size: 15px;
+
+        }
+        .footer_social_item {
+          line-height: 3;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  main {
+    .form_submit {
+      flex-direction: column;
+      .form_checkbox {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

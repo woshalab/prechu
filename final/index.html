@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>Final</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/e22e2e3637.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/animate.css">
 
 </head>
 <body>
@@ -27,12 +28,14 @@
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Help</a></li>
                 </ul>
+                <div class="nav_menu__hamburger"></div>
             </nav>
             <button class="nav_btn">Sign in</button>
+
         </section>
     </div>
     <div class="container">
-        <div class="intro">
+        <section class="intro">
             <div class="intro_item">
                 <h1 class="intro_title">lorem Ipsum <br>Dolor sit amet</h1>
                 <p class="intro_txt">Lorem ipsum dolor sit amet, consectetur
@@ -45,13 +48,12 @@
             <div class="intro_video">
 
             </div>
-        </div>
+        </section>
     </div>
 </header>
 
 <main>
     <section class="section container">
-
         <div class="section_header">
             <h2 class="section_title">Easy & Useful</h2>
             <h3 class="section_suptitle">Project Management Tool</h3>
@@ -93,10 +95,9 @@
         <div class="section_btn">
             <button class="section_btn1">Get started</button>
         </div>
-
-
     </section>
-    <div class="statistics">
+
+    <section class="statistics">
 
         <div class="stat">
             <div class="stat_item item__blue">
@@ -120,7 +121,8 @@
                 <p class="stat_item_txt">Pro Users</p>
             </div>
         </div>
-    </div>
+    </section>
+
     <section class="section container">
         <div class="section_header">
             <h2 class="section_title">Services</h2>
@@ -179,8 +181,7 @@
     <section class="review">
         <div class="review_items container">
             <div class="review_item">
-                <h2 class="review_title">What our customers <br>
-                    have to say about us.</h2>
+                <h2 class="review_title">What our customers have to say about us.</h2>
                 <p class="review_txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     d do eiusmod tempor incididunt ut labore et dolore magna</p>
                 <button class="review_btn">Get started</button>
@@ -196,7 +197,7 @@
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
                     </div>
                 </div>
-                <div class="review_item__content">
+                <div class="review_item__content review_item__content__hide">
                     <img class="review_photo" src="assets/img/avatar-2.png" alt="avatar-1">
                     <div class="review_opinion">
                         <h3 class="review_opinion_name">Khalessie</h3>
@@ -216,7 +217,7 @@
                 sed do eiusmod tempor incididunt ut labore et dolore magna</p>
         </div>
         <div class="team">
-            <div class="team_content">
+            <div class="team_content wow animated bounce" data-wow-duration="5s" data-wow-iteration="3">
                 <div class="team_member">
                     <img class="team_member_photo" src="assets/img/member-1.png" alt="member-photo">
                 </div>
@@ -291,21 +292,21 @@
 <footer>
     <div class="section section_footer">
         <div class="container">
-        <div class="footer_nav">
-            <div class="logo">
-                <i class="logo_icon"></i>
-                <img class="logo_txt" src="assets/icons/logo-txt.png" alt="logo-txt">
+            <div class="footer_nav">
+                <div class="logo">
+                    <i class="logo_icon"></i>
+                    <img class="logo_txt" src="assets/icons/logo-txt.png" alt="logo-txt">
+                </div>
+                <nav>
+                    <ul class="nav_list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Extention</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul class="nav_list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Extention</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
-            </nav>
-        </div>
             <div class="footer_content">
                 <div class="footer_item">
                     <p class="footer_item_txt">Policy</p>
@@ -334,5 +335,9 @@
     </div>
 </footer>
 
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
