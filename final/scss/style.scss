@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css?family=Raleway700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -228,6 +228,10 @@ main {
       cursor: pointer;
       background-color: #1de9b6;
       box-shadow: 0px 7px 31px -15px rgba(0, 0, 0, 0.75);
+      transition: color .4s linear;
+    }
+    .section_btn1:hover {
+      background-color: rgba(6, 30, 55, 0.91);
     }
   }
 
@@ -572,7 +576,7 @@ main {
     }
 
     .form_btn:hover {
-      background-color: rgb(18, 233, 125);
+      background-color: rgba(6, 30, 55, 0.91);
       border: none;
     }
 

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -209,7 +210,11 @@ main .section_btn {
     cursor: pointer;
     background-color: #1de9b6;
     -webkit-box-shadow: 0px 7px 31px -15px rgba(0, 0, 0, 0.75);
-            box-shadow: 0px 7px 31px -15px rgba(0, 0, 0, 0.75); }
+            box-shadow: 0px 7px 31px -15px rgba(0, 0, 0, 0.75);
+    -webkit-transition: color .4s linear;
+    transition: color .4s linear; }
+  main .section_btn .section_btn1:hover {
+    background-color: rgba(6, 30, 55, 0.91); }
 main .stat {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -491,7 +496,7 @@ main .section_contacts {
     background-color: #1de9b6;
     color: #ffffff; }
   main .section_contacts .form_btn:hover {
-    background-color: #12e97d;
+    background-color: rgba(6, 30, 55, 0.91);
     border: none; }
 
 footer .section_footer {
